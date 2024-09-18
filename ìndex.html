@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <header class="header">
+           <nav class="navbar">
+            <img class="image1" src="chiwhi (2).png">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#abo" class="nav-link">About</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#ill" class="nav-link">Skills</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#jects" class="nav-link">Project</a>
+                </li>
+                 <li class="nav-item">
+                    <a href="#tact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div> 
+       <script>
+       	const hamburger = document.querySelector(".hamburger");
+       	const navMenu = document.querySelector(".nav-menu");
+
+       	hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+        	hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+        const navLink = document.querySelectorAll(".nav-link");
+        navLink.forEach(n => n.addEventListener("click.closeMenu"));
+
+        function closeMenu() {
+        	hamburger.classList.remove("active");
+        	navMenu.classList.remove("active");
+        }
+       </script>
+         </div>
+         <div class="container3">
+             <h4 class="h1">Hi,</h4>
+              <h4 class="h2">I'm <span>CHIBUZO</span></h4>
+               <h4 class="h3">Web Developer...</h4>
+         </div>
+         <div class="con">
+         <img src="chibuzobe.jpg">
+         </div>
+         <button class="hire">Hire me</button>
+          
+          <div class="so_media">
+              <img src="facebook.jpg">
+              <img src="whatsapp.jpg">
+              <img src="ig.jpg">
+          </div>
+          <h5 id ="abo">ABOUT</h5>
+          <div class="about">
+              <img src="computer.jpg">
+          </div>
+          <h3 class="info">I'm Chibuzo</h3>
+          <h4 class="info2"> Being an experienced individual, I firmly believe in learning new technologies and
+            software  programs skills to conclude to optimizied business solutions. My goal is to
+            exhibit knoweledge and understanding of Software programming to other sofware
+            programmers out there.
+            I am a webpage programmer with over 4 months of experienced in software programming
+            and i have a firm understanding of the program. I am highly proficient and specialized
+            in HTML, CSS and JavaScript.
+        </h4>
+        <h5 id ="ill">SKILLS</h5>
+        <h3 class="p_skills">Professional Skills</h3>
+        <h3 class="p_skillsinfo">These are the things I'm specialized and loving doing....</h3>
+        <div class="hcj">
+            <img src="hcj2.jpg">
+        </div>
+        <h5 id ="jects">PROJECTS</h5>
+        <div class="projimg">
+            <img src="logo.svg">
+        </div>
+        <h3 class="projinfo">
+             Learn more on how to build communities and gain ideas to 
+             improve.
+        </h3>
+         <a href=""><p class="link1">Source Code</p></a>
+         <a href="">
+            <a href="huddle.html">
+         <button class="butto1">Read Article</button>
+         </a>
+         </a>
+         <div class="projimg2">
+             <img src="gidea.jpg">
+         </div>
+          <h3 class="projinfo2">
+        Learn more about the field of a web design and how to improve.
+         </h3>
+         <a href=""><p class="link2">Source Code</p></a>
+          <a href="gidea.html">
+         <button class="butto2">Read Article</button>
+         </a>
+     </a>
+        <h5 id ="tact">CONTACT</h5>
+    
+        <form>
+        <input type="text" class="name" placeholder="Name">
+        <input type="text" class="email" placeholder="E-mail">
+        <textarea>Type your message</textarea>
+        </form>
+        <button class="butto3">Submit</button>
+        <footer>
+                <div class="cont5">
+                <img src="chibla (3).png">
+                </div>
+            <div>
+              <h3 class="info3">Copyright Chibuzo Singh. All right reserved.</h3>
+            </div>
+            <div class="cont6">
+                <img src="facebook.jpg">
+                <img src="whatsapp.jpg">
+                <img src="ig.jpg">
+            </div>
+        </footer>
+    </div>
+</body>
+</html> 
