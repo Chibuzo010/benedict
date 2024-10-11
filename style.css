@@ -303,19 +303,26 @@ footer{
 	width: 10%;
 	border-radius: 16%;
 }
-@media all and (max-width: 700px){
+@media all and (max-width: 500px){
 	.nav-menu{
 		position: fixed;
 		left: -110%;
 		top: 5rem;
 		flex-direction: column;
-		background-color: white;
-		width: 90%;
+		background-color: black;
+		width: 87%;
 		border-radius: 10px;
 		text-align: center;
 		transition: 0.3s;
 		box-shadow: 0 10px 27px ghostwhite;
 	}
+	.nav-link{
+	font-size: 2rem;
+	font-weight: 800;
+	color: white;
+	font-family: 'big shoulders display';
+    margin-right: 13px;
+}
 	.nav-menu.active{
 	left: 0;
 }
@@ -348,75 +355,81 @@ img.image1 {
     }
     .h1 {
     font-family: 'big shoulders display';
-    font-size: 54px;
-    margin-left: 48%;
+    font-size: 46px;
+    margin-left: 11%;
 }
 .h2 {
     font-family: 'big shoulders display';
-    font-size: 54px;
-    margin-left: 24%;
+    font-size: 46px;
+    margin-left: 11%;
 }
 .h3 {
     font-family: 'big shoulders display';
-    font-size: 54px;
-    margin-left: 13%;
+    font-size: 46px;
+    margin-left: 11%;
 }
     .con img {
-        width: 67%;
+        width: 81%;
         float: right;
         margin-top: -10%;
-        margin-right: 13%;
+        margin-right: 4%;
         border-radius: 50%;
         box-shadow: 10px 5px grey;
     }
     .hire {
-    width: 40%;
+    width: 55%;
     height: 8vh;
     margin-top: 8%;
-    margin-left: 33.5%;
+    margin-left: 23.5%;
     font-family: 'big shoulders display';
     background-color: black;
     color: white;
     font-weight: 600;
     border-radius: 30px;
 }
+.so_media{
+    display: flex;
+/*    align-items: center;*/
+    flex-direction: column;
+	justify-content: center;
+}
 .so_media img {
     width: 21%;
     margin-top: 10%;
     padding-left: 36px;
 }
-.abo {
+#abo {
     font-family: 'big shoulders display';
     text-align: center;
-    font-size: 65px;
-    margin-right: -14px;
+    font-size: 55px;
+    margin-left: 18px;
 }
 .about img {
     width: 88%;
-    height: 50vh;
-    padding-left: 7%;
+    height: 36vh;
+    padding-left: 6%;
     box-shadow: 10px 5px grey;
     border-radius: 40%;
     margin-top: -22%;
 }
 .info {
     font-family: 'big shoulders display';
-    margin-left: 34%;
+    margin-left: 28%;
     margin-top: 5%;
     font-size: 35px;
 }
-.info2 {
-    font-family: 'big shoulders display';
-    margin-left: 5%;
-    margin-top: -4%;
-    font-size: 20px;
-    width: 92%;
-}
-.ill{
+    .info2 {
+        font-family: 'big shoulders display';
+        margin-left: 5%;
+        margin-top: -10%;
+        font-size: 20px;
+        width: 96%;
+    }
+#ill{
     font-family: 'big shoulders display';
     text-align: center;
-    font-size: 65px;
-    margin-right: -14px;
+    font-size: 55px;
+    margin-left: 18px;
 }
 .p_skills {
     font-family: 'big shoulders display';
@@ -426,39 +439,44 @@ img.image1 {
 }
 .p_skillsinfo {
     font-family: 'big shoulders display';
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 6%;
     margin-top: -3%;
 }
-.hcj img {
-    width: 92%;
-    margin-right: -4%;
-    float: right;
-    border-radius: 40%;
-}
-.jects {
+    .hcj img {
+        width: 107%;
+        margin-right: -3%;
+        float: right;
+        border-radius: 40%;
+    }
+#jects{
     font-family: 'big shoulders display';
     text-align: center;
-    font-size: 65px;
-    margin-top: 85%;
-    margin-left: 23px;
+    font-size: 55px;
+    margin-left: 18px;
+    margin-top: 97%;
 }
 .projimg img {
     margin-top: -10%;
-    margin-left: 8%;
+    margin-left: 6%;
     width: 85%;
+}
+.projinfo {
+    font-family: 'big shoulders display';
+    font-size: 18px;
+    margin-left: 5%;
 }
 .link1 {
     font-family: 'big shoulders display';
     margin-top: 1.4%;
-    margin-left: 41%;
+    margin-left: 36%;
     font-size: 25px;
 }
 .butto1 {
     width: 49%;
     height: 9vh;
-    margin-top: -4%;
-    margin-left: 28.3%;
+    margin-top: -7%;
+    margin-left: 27.3%;
     font-family: 'big shoulders display';
     background-color: black;
     color: white;
@@ -474,60 +492,61 @@ img.image1 {
 .projinfo2 {
     font-family: 'big shoulders display';
     font-size: 19px;
-    margin-left: 8%;
+    margin-left: 6%;
     margin-top: 42%;
 }
 .link2 {
-    font-family: 'big shoulders display';
-    margin-left: 41%;
-    margin-top: 1.5%;
-    font-size: 25px;
-}
+        font-family: 'big shoulders display';
+        margin-left: 36%;
+        margin-top: -4.5%;
+        font-size: 25px;
+    }
 .butto2 {
     width: 49%;
     height: 9vh;
     float: right;
-    margin-top: -4.5%;
-    margin-right: 21.5%;
+    margin-top: -5.5%;
+    margin-right: 23.5%;
     font-family: 'big shoulders display';
     background-color: black;
     color: white;
     font-weight: 600;
     border-radius: 30px;
 }
-.tact {
-    font-family: 'big shoulders display';
+#tact {
+     font-family: 'big shoulders display';
     text-align: center;
-    font-size: 65px;
-    margin-top: 39%;
-    margin-left: 23px;
+    font-size: 55px;
+    margin-left: 18px;
+    margin-top: 50%;
 }
 .name {
-    width: 88.5%;
-    height: 8vh;
-    border-radius: 10px;
-    margin-bottom: 2%;
-    margin-left: 4%;
-    font-family: 'big shoulders display';
-    padding-left: 12px;
-    font-weight: 800;
-    border-style: double;
+            width: 91.5%;
+        height: 8vh;
+        border-radius: 10px;
+        margin-bottom: 2%;
+        margin-left: 1%;
+        font-family: 'big shoulders display';
+        padding-left: 12px;
+        font-weight: 800;
+        border-style: double;
 }
 .email {
-    width: 88.5%;
-    height: 8vh;
-    border-radius: 10px;
-    border-style: double;
-    font-family: 'big shoulders display';
-    font-weight: 800;
-    padding-left: 12px;
-    margin-left: 4%;
+            width: 91.5%;
+        height: 8vh;
+        border-radius: 10px;
+        margin-bottom: 2%;
+        margin-left: 1%;
+        font-family: 'big shoulders display';
+        padding-left: 12px;
+        font-weight: 800;
+        border-style: double;
 }
 textarea {
-    width: 87.5%;
+    width: 91.5%;
     height: 22vh;
     border-radius: 10px;
-    margin-left: 5%;
+    margin-left: 1%;
     font-family: 'big shoulders display';
     padding-left: 12px;
     font-weight: 800;
@@ -546,7 +565,7 @@ textarea {
 }
     .cont5 img {
         height: 12vh;
-        margin-left: 32.3%;
+        margin-left: 27%;
         margin-top: 5%;
     }
 
@@ -555,11 +574,11 @@ textarea {
     color: white;
     font-size: 25px;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 8px;
 }
 .cont6 img {
     width: 19%;
     border-radius: 36%;
-    margin-left: 26px;
+    margin-left: 20px;
 }
 }
