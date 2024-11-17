@@ -17,6 +17,9 @@ a{
 .header{
 	border-bottom: 1px solid white;
 }
+.nav-contain{
+	color: white;
+}
 .navbar{
 	display: flex;
 	justify-content: space-between;
@@ -78,7 +81,7 @@ span{
 }
 .con img{
 	float: right;
-	margin-top: -45%;
+	margin-top: -40%;
 	margin-right: 5%;
 	border-radius: 50%;
 	box-shadow: 10px 5px grey;
@@ -304,6 +307,20 @@ footer{
 	border-radius: 16%;
 }
 @media all and (max-width: 500px){
+	.nav-contain{
+		background-color: white;
+	}
+         .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        position: fixed;
+        z-index: 1;
+        background-color: white;
+        width: 85%;
+        margin-top: -3%;
+    }
 	.nav-menu{
 		position: fixed;
 		left: -110%;
@@ -329,10 +346,6 @@ footer{
 .nav-item{
 	margin: 2.5rem 0;
 }
-.hamburger{
-	display: block;
-	cursor: pointer;
-}
 .hamburger.active .bar:nth-child(2){
 	opacity: 0;
 }
@@ -343,20 +356,24 @@ footer{
 	transform: translateY(-8px) rotate(-45deg);
 }
 img.image1 {
-    width: 46%;
+    width: 45%;
     height: 8vh;
     margin-left: -3%;
+    margin-top: -1%;
 }
     .hamburger {
         display: block;
         cursor: pointer;
         margin-left: 78%;
-        margin-top: -47px;
+        margin-top: 7px;
+        position: fixed;
+        z-index: 1;
     }
     .h1 {
     font-family: 'big shoulders display';
     font-size: 46px;
     margin-left: 11%;
+    margin-top: 37%;
 }
 .h2 {
     font-family: 'big shoulders display';
@@ -469,7 +486,7 @@ img.image1 {
 .link1 {
     font-family: 'big shoulders display';
     margin-top: 1.4%;
-    margin-left: 36%;
+    margin-left: 34%;
     font-size: 25px;
 }
 .butto1 {
@@ -497,7 +514,7 @@ img.image1 {
 }
 .link2 {
         font-family: 'big shoulders display';
-        margin-left: 36%;
+        margin-left: 34%;
         margin-top: -4.5%;
         font-size: 25px;
     }
